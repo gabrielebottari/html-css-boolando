@@ -45,6 +45,12 @@ img {
     HEADER
 */
 
+header {
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+}
+
 .header-bg {
     background-color:#FF6900;
 }
@@ -90,6 +96,10 @@ li a {
 /* 
     MAIN
 */
+
+main {
+    padding-top: 80px;
+}
 
 main .my-col-1-3 {
     width: calc((100% / 3) -20px);
