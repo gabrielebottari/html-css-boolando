@@ -28,7 +28,7 @@ a, i {
 }
 
 .my-col-1-3 {
-    width: calc((100% / 3) - 30px);
+    width: calc((100% / 3) - 10px);
     display: flex;
     flex-wrap: wrap;
 }
